@@ -1,0 +1,5 @@
+C:\Users\danil\source\repos\Tourist_accommodation_system\TourismManagement.Tests\obj\Debug\net8.0\TourismManagement.Tests.csproj.AssemblyReference.cache
+C:\Users\danil\source\repos\Tourist_accommodation_system\TourismManagement.Tests\obj\Debug\net8.0\TourismManagement.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danil\source\repos\Tourist_accommodation_system\TourismManagement.Tests\obj\Debug\net8.0\TourismManagement.Tests.AssemblyInfoInputs.cache
+C:\Users\danil\source\repos\Tourist_accommodation_system\TourismManagement.Tests\obj\Debug\net8.0\TourismManagement.Tests.AssemblyInfo.cs
+C:\Users\danil\source\repos\Tourist_accommodation_system\TourismManagement.Tests\obj\Debug\net8.0\TourismManagement.Tests.csproj.CoreCompileInputs.cache
