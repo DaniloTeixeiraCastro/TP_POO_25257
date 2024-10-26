@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tourist_Accommodation_System.Models
 {
-    public class Accommodation
+    public class Accommodation : Entity
     {
         public int Id { get; set; }  // Identificador único do alojamento
         public string Name { get; set; }  // Nome do alojamento
@@ -22,6 +22,10 @@ namespace Tourist_Accommodation_System.Models
             Location = location;
             Capacity = capacity;
             PricePerNight = pricePerNight;
+        }
+        public override string GetDescription()
+        {
+            return $"Accommodation: {Name} in {Location}, Price per Night: {PricePerNight}";
         }
     }
 }

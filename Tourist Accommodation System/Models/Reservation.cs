@@ -26,6 +26,7 @@ namespace Tourist_Accommodation_System.Models
             TotalPrice = CalculateTotalPrice();  // Calcula o preço total ao criar a reserva
         }
 
+        
         // Método para calcular o preço total da estadia
         private decimal CalculateTotalPrice()
         {

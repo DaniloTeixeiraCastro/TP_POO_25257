@@ -131,7 +131,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(737, 442);
+            ClientSize = new Size(778, 547);
             Controls.Add(lblChekcin);
             Controls.Add(panel1);
             Controls.Add(lblReviews);
@@ -156,8 +156,8 @@
         private Label lblReservation;
         private Label lblReviews;
         private Panel panel1;
-        private PictureBox pictureBox1;
         private Label lblChekcin;
+        private PictureBox pictureBox1;
 
     }
 }

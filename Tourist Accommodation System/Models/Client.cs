@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tourist_Accommodation_System.Models
 {
-    public class Client
+    public class Client : Entity
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -26,6 +26,11 @@ namespace Tourist_Accommodation_System.Models
             TIN = tin;
             BirthDate = birthDate;
             Reservations = new List<Reservation>();
+        }
+
+        public override string GetDescription()
+        {
+            return $"Client: {Name}, Email: {Email}";
         }
 
         //metodo para adicionar reserva
