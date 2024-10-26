@@ -131,7 +131,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(829, 539);
+            ClientSize = new Size(737, 442);
             Controls.Add(lblChekcin);
             Controls.Add(panel1);
             Controls.Add(lblReviews);
@@ -141,6 +141,7 @@
             Controls.Add(label1);
             Name = "Forms1";
             Text = "Form1";
+            Load += Forms1_Load;
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -157,5 +158,6 @@
         private Panel panel1;
         private PictureBox pictureBox1;
         private Label lblChekcin;
+
     }
 }

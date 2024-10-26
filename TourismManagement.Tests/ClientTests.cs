@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-
 namespace TourismManagement.Tests
 {
     public class ClientTests
@@ -37,5 +36,4 @@ namespace TourismManagement.Tests
         }
     }
 
-}
 }
