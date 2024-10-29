@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\danil\\.nuget\\packages\\": {}
+    "C:\\Users\\sustentabilidade\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danil\\source\\repos\\Tourist_accommodation_system\\Tourist Accommodation System\\Tourist Accommodation System.csproj",
+      "projectUniqueName": "C:\\Users\\sustentabilidade\\source\\repos\\TP_POO_24257-main\\Tourist Accommodation System\\Tourist Accommodation System.csproj",
       "projectName": "Tourist Accommodation System",
-      "projectPath": "C:\\Users\\danil\\source\\repos\\Tourist_accommodation_system\\Tourist Accommodation System\\Tourist Accommodation System.csproj",
-      "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danil\\source\\repos\\Tourist_accommodation_system\\Tourist Accommodation System\\obj\\",
+      "projectPath": "C:\\Users\\sustentabilidade\\source\\repos\\TP_POO_24257-main\\Tourist Accommodation System\\Tourist Accommodation System.csproj",
+      "packagesPath": "C:\\Users\\sustentabilidade\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sustentabilidade\\source\\repos\\TP_POO_24257-main\\Tourist Accommodation System\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sustentabilidade\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -41,5 +41,16 @@ namespace Tourist_Accommodation_System
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+          // Cria uma nova instância do formulário ClientManagementForm
+          FormManagementClient clientForm = new FormManagementClient();
+
+          // Exibe o formulário
+          clientForm.Show();
+            
+
+        }
     }
 }

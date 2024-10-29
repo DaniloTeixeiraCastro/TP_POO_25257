@@ -15,3 +15,21 @@ C:\Users\danil\source\repos\Tourist_accommodation_system\Tourist Accommodation S
 C:\Users\danil\source\repos\Tourist_accommodation_system\Tourist Accommodation System\bin\Debug\net8.0-windows\Tourist Accommodation System.pdb
 C:\Users\danil\source\repos\Tourist_accommodation_system\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.genruntimeconfig.cache
 C:\Users\danil\source\repos\Tourist_accommodation_system\Tourist Accommodation System\obj\Debug\net8.0-windows\ref\Tourist Accommodation System.dll
+C:\Users\sustentabilidade\source\repos\TP_POO_24257-main\Tourist Accommodation System\bin\Debug\net8.0-windows\Tourist Accommodation System.exe
+C:\Users\sustentabilidade\source\repos\TP_POO_24257-main\Tourist Accommodation System\bin\Debug\net8.0-windows\Tourist Accommodation System.deps.json
+C:\Users\sustentabilidade\source\repos\TP_POO_24257-main\Tourist Accommodation System\bin\Debug\net8.0-windows\Tourist Accommodation System.runtimeconfig.json
+C:\Users\sustentabilidade\source\repos\TP_POO_24257-main\Tourist Accommodation System\bin\Debug\net8.0-windows\Tourist Accommodation System.dll
+C:\Users\sustentabilidade\source\repos\TP_POO_24257-main\Tourist Accommodation System\bin\Debug\net8.0-windows\Tourist Accommodation System.pdb
+C:\Users\sustentabilidade\source\repos\TP_POO_24257-main\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist_Accommodation_System.Forms1.resources
+C:\Users\sustentabilidade\source\repos\TP_POO_24257-main\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist_Accommodation_System.Properties.Resources.resources
+C:\Users\sustentabilidade\source\repos\TP_POO_24257-main\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.csproj.GenerateResource.cache
+C:\Users\sustentabilidade\source\repos\TP_POO_24257-main\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sustentabilidade\source\repos\TP_POO_24257-main\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.AssemblyInfoInputs.cache
+C:\Users\sustentabilidade\source\repos\TP_POO_24257-main\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.AssemblyInfo.cs
+C:\Users\sustentabilidade\source\repos\TP_POO_24257-main\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.csproj.CoreCompileInputs.cache
+C:\Users\sustentabilidade\source\repos\TP_POO_24257-main\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.dll
+C:\Users\sustentabilidade\source\repos\TP_POO_24257-main\Tourist Accommodation System\obj\Debug\net8.0-windows\refint\Tourist Accommodation System.dll
+C:\Users\sustentabilidade\source\repos\TP_POO_24257-main\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.pdb
+C:\Users\sustentabilidade\source\repos\TP_POO_24257-main\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.genruntimeconfig.cache
+C:\Users\sustentabilidade\source\repos\TP_POO_24257-main\Tourist Accommodation System\obj\Debug\net8.0-windows\ref\Tourist Accommodation System.dll
+C:\Users\sustentabilidade\source\repos\TP_POO_24257-main\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist_Accommodation_System.FormManagementClient.resources
