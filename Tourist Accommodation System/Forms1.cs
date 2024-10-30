@@ -13,10 +13,6 @@ namespace Tourist_Accommodation_System
 
         }
 
-        private void lblClient_Click(object sender, EventArgs e)
-        {
-        }
-
         private void lblReviews_Click(object sender, EventArgs e)
         {
 
@@ -49,8 +45,7 @@ namespace Tourist_Accommodation_System
 
           // Exibe o formulário
           clientForm.Show();
-            
-
+        
         }
     }
 }

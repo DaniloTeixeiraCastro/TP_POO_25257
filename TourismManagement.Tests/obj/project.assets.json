@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danil\\Source\\Repos\\TP_POO_24257\\TourismManagement.Tests\\TourismManagement.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\danil\\source\\repos\\TP_POO_25257\\TourismManagement.Tests\\TourismManagement.Tests.csproj",
       "projectName": "TourismManagement.Tests",
-      "projectPath": "C:\\Users\\danil\\Source\\Repos\\TP_POO_24257\\TourismManagement.Tests\\TourismManagement.Tests.csproj",
+      "projectPath": "C:\\Users\\danil\\source\\repos\\TP_POO_25257\\TourismManagement.Tests\\TourismManagement.Tests.csproj",
       "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danil\\Source\\Repos\\TP_POO_24257\\TourismManagement.Tests\\obj\\",
+      "outputPath": "C:\\Users\\danil\\source\\repos\\TP_POO_25257\\TourismManagement.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\danil\\Source\\Repos\\TP_POO_24257\\Tourist Accommodation System\\Tourist Accommodation System.csproj": {
-              "projectPath": "C:\\Users\\danil\\Source\\Repos\\TP_POO_24257\\Tourist Accommodation System\\Tourist Accommodation System.csproj"
+            "C:\\Users\\danil\\source\\repos\\TP_POO_25257\\Tourist Accommodation System\\Tourist Accommodation System.csproj": {
+              "projectPath": "C:\\Users\\danil\\source\\repos\\TP_POO_25257\\Tourist Accommodation System\\Tourist Accommodation System.csproj"
             }
           }
         }
