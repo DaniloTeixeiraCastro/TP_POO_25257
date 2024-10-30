@@ -26,5 +26,20 @@ namespace Tourist_Accommodation_System
         {
 
         }
+
+        private void clientToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void accomodationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void reviewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -33,31 +33,38 @@
             addClientToolStripMenuItem = new ToolStripMenuItem();
             editClientToolStripMenuItem = new ToolStripMenuItem();
             removeClToolStripMenuItem = new ToolStripMenuItem();
+            listClientToolStripMenuItem = new ToolStripMenuItem();
             accomodationToolStripMenuItem = new ToolStripMenuItem();
             addAcommodationToolStripMenuItem = new ToolStripMenuItem();
             editAccommodationToolStripMenuItem = new ToolStripMenuItem();
             removeAccommodationToolStripMenuItem = new ToolStripMenuItem();
+            listAccommodationToolStripMenuItem = new ToolStripMenuItem();
             reservationToolStripMenuItem = new ToolStripMenuItem();
             addReservationToolStripMenuItem = new ToolStripMenuItem();
             editReservationToolStripMenuItem = new ToolStripMenuItem();
             removeReservationToolStripMenuItem = new ToolStripMenuItem();
+            listRToolStripMenuItem = new ToolStripMenuItem();
             reviewToolStripMenuItem = new ToolStripMenuItem();
             addReviewToolStripMenuItem = new ToolStripMenuItem();
             editReviewToolStripMenuItem = new ToolStripMenuItem();
             removeReviewToolStripMenuItem = new ToolStripMenuItem();
-            listClientToolStripMenuItem = new ToolStripMenuItem();
-            listAccommodationToolStripMenuItem = new ToolStripMenuItem();
-            listRToolStripMenuItem = new ToolStripMenuItem();
             listReviewToolStripMenuItem = new ToolStripMenuItem();
+            checkINToolStripMenuItem = new ToolStripMenuItem();
+            addCheckInToolStripMenuItem = new ToolStripMenuItem();
+            editCheckInToolStripMenuItem = new ToolStripMenuItem();
+            removeCheckInToolStripMenuItem = new ToolStripMenuItem();
+            listCheckInToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { clientToolStripMenuItem, accomodationToolStripMenuItem, reservationToolStripMenuItem, reviewToolStripMenuItem });
+            menuStrip1.ImageScalingSize = new Size(20, 20);
+            menuStrip1.Items.AddRange(new ToolStripItem[] { clientToolStripMenuItem, accomodationToolStripMenuItem, reservationToolStripMenuItem, reviewToolStripMenuItem, checkINToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 24);
+            menuStrip1.Padding = new Padding(7, 3, 0, 3);
+            menuStrip1.Size = new Size(914, 30);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -65,136 +72,171 @@
             // 
             clientToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { addClientToolStripMenuItem, editClientToolStripMenuItem, removeClToolStripMenuItem, listClientToolStripMenuItem });
             clientToolStripMenuItem.Name = "clientToolStripMenuItem";
-            clientToolStripMenuItem.Size = new Size(50, 20);
+            clientToolStripMenuItem.Size = new Size(61, 24);
             clientToolStripMenuItem.Text = "Client";
+            clientToolStripMenuItem.Click += clientToolStripMenuItem_Click;
             // 
             // addClientToolStripMenuItem
             // 
             addClientToolStripMenuItem.Name = "addClientToolStripMenuItem";
-            addClientToolStripMenuItem.Size = new Size(180, 22);
+            addClientToolStripMenuItem.Size = new Size(188, 26);
             addClientToolStripMenuItem.Text = "Add Client";
             // 
             // editClientToolStripMenuItem
             // 
             editClientToolStripMenuItem.Name = "editClientToolStripMenuItem";
-            editClientToolStripMenuItem.Size = new Size(180, 22);
+            editClientToolStripMenuItem.Size = new Size(188, 26);
             editClientToolStripMenuItem.Text = "Edit Client";
             // 
             // removeClToolStripMenuItem
             // 
             removeClToolStripMenuItem.Name = "removeClToolStripMenuItem";
-            removeClToolStripMenuItem.Size = new Size(180, 22);
+            removeClToolStripMenuItem.Size = new Size(188, 26);
             removeClToolStripMenuItem.Text = "Remove Client";
+            // 
+            // listClientToolStripMenuItem
+            // 
+            listClientToolStripMenuItem.Name = "listClientToolStripMenuItem";
+            listClientToolStripMenuItem.Size = new Size(188, 26);
+            listClientToolStripMenuItem.Text = "List Client";
             // 
             // accomodationToolStripMenuItem
             // 
             accomodationToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { addAcommodationToolStripMenuItem, editAccommodationToolStripMenuItem, removeAccommodationToolStripMenuItem, listAccommodationToolStripMenuItem });
             accomodationToolStripMenuItem.Name = "accomodationToolStripMenuItem";
-            accomodationToolStripMenuItem.Size = new Size(109, 20);
+            accomodationToolStripMenuItem.Size = new Size(134, 24);
             accomodationToolStripMenuItem.Text = "Accommodation";
+            accomodationToolStripMenuItem.Click += accomodationToolStripMenuItem_Click;
             // 
             // addAcommodationToolStripMenuItem
             // 
             addAcommodationToolStripMenuItem.Name = "addAcommodationToolStripMenuItem";
-            addAcommodationToolStripMenuItem.Size = new Size(185, 22);
+            addAcommodationToolStripMenuItem.Size = new Size(259, 26);
             addAcommodationToolStripMenuItem.Text = "Add acommodation";
             // 
             // editAccommodationToolStripMenuItem
             // 
             editAccommodationToolStripMenuItem.Name = "editAccommodationToolStripMenuItem";
-            editAccommodationToolStripMenuItem.Size = new Size(185, 22);
+            editAccommodationToolStripMenuItem.Size = new Size(259, 26);
             editAccommodationToolStripMenuItem.Text = "Edit accommodation";
             // 
             // removeAccommodationToolStripMenuItem
             // 
             removeAccommodationToolStripMenuItem.Name = "removeAccommodationToolStripMenuItem";
-            removeAccommodationToolStripMenuItem.Size = new Size(208, 22);
+            removeAccommodationToolStripMenuItem.Size = new Size(259, 26);
             removeAccommodationToolStripMenuItem.Text = "Remove accommodation";
+            // 
+            // listAccommodationToolStripMenuItem
+            // 
+            listAccommodationToolStripMenuItem.Name = "listAccommodationToolStripMenuItem";
+            listAccommodationToolStripMenuItem.Size = new Size(259, 26);
+            listAccommodationToolStripMenuItem.Text = "List accommodation";
             // 
             // reservationToolStripMenuItem
             // 
             reservationToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { addReservationToolStripMenuItem, editReservationToolStripMenuItem, removeReservationToolStripMenuItem, listRToolStripMenuItem });
             reservationToolStripMenuItem.Name = "reservationToolStripMenuItem";
-            reservationToolStripMenuItem.Size = new Size(80, 20);
+            reservationToolStripMenuItem.Size = new Size(100, 24);
             reservationToolStripMenuItem.Text = "Reservation";
             reservationToolStripMenuItem.Click += reservationToolStripMenuItem_Click;
             // 
             // addReservationToolStripMenuItem
             // 
             addReservationToolStripMenuItem.Name = "addReservationToolStripMenuItem";
-            addReservationToolStripMenuItem.Size = new Size(180, 22);
+            addReservationToolStripMenuItem.Size = new Size(223, 26);
             addReservationToolStripMenuItem.Text = "Add reservation";
             // 
             // editReservationToolStripMenuItem
             // 
             editReservationToolStripMenuItem.Name = "editReservationToolStripMenuItem";
-            editReservationToolStripMenuItem.Size = new Size(180, 22);
+            editReservationToolStripMenuItem.Size = new Size(223, 26);
             editReservationToolStripMenuItem.Text = "Edit reservation";
             // 
             // removeReservationToolStripMenuItem
             // 
             removeReservationToolStripMenuItem.Name = "removeReservationToolStripMenuItem";
-            removeReservationToolStripMenuItem.Size = new Size(180, 22);
+            removeReservationToolStripMenuItem.Size = new Size(223, 26);
             removeReservationToolStripMenuItem.Text = "Remove reservation";
+            // 
+            // listRToolStripMenuItem
+            // 
+            listRToolStripMenuItem.Name = "listRToolStripMenuItem";
+            listRToolStripMenuItem.Size = new Size(223, 26);
+            listRToolStripMenuItem.Text = "List reservation";
             // 
             // reviewToolStripMenuItem
             // 
             reviewToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { addReviewToolStripMenuItem, editReviewToolStripMenuItem, removeReviewToolStripMenuItem, listReviewToolStripMenuItem });
             reviewToolStripMenuItem.Name = "reviewToolStripMenuItem";
-            reviewToolStripMenuItem.Size = new Size(56, 20);
+            reviewToolStripMenuItem.Size = new Size(70, 24);
             reviewToolStripMenuItem.Text = "Review";
+            reviewToolStripMenuItem.Click += reviewToolStripMenuItem_Click;
             // 
             // addReviewToolStripMenuItem
             // 
             addReviewToolStripMenuItem.Name = "addReviewToolStripMenuItem";
-            addReviewToolStripMenuItem.Size = new Size(180, 22);
+            addReviewToolStripMenuItem.Size = new Size(193, 26);
             addReviewToolStripMenuItem.Text = "Add review";
             // 
             // editReviewToolStripMenuItem
             // 
             editReviewToolStripMenuItem.Name = "editReviewToolStripMenuItem";
-            editReviewToolStripMenuItem.Size = new Size(180, 22);
+            editReviewToolStripMenuItem.Size = new Size(193, 26);
             editReviewToolStripMenuItem.Text = "Edit review";
             // 
             // removeReviewToolStripMenuItem
             // 
             removeReviewToolStripMenuItem.Name = "removeReviewToolStripMenuItem";
-            removeReviewToolStripMenuItem.Size = new Size(180, 22);
+            removeReviewToolStripMenuItem.Size = new Size(193, 26);
             removeReviewToolStripMenuItem.Text = "Remove review";
-            // 
-            // listClientToolStripMenuItem
-            // 
-            listClientToolStripMenuItem.Name = "listClientToolStripMenuItem";
-            listClientToolStripMenuItem.Size = new Size(180, 22);
-            listClientToolStripMenuItem.Text = "List Client";
-            // 
-            // listAccommodationToolStripMenuItem
-            // 
-            listAccommodationToolStripMenuItem.Name = "listAccommodationToolStripMenuItem";
-            listAccommodationToolStripMenuItem.Size = new Size(208, 22);
-            listAccommodationToolStripMenuItem.Text = "List accommodation";
-            // 
-            // listRToolStripMenuItem
-            // 
-            listRToolStripMenuItem.Name = "listRToolStripMenuItem";
-            listRToolStripMenuItem.Size = new Size(180, 22);
-            listRToolStripMenuItem.Text = "List reservation";
             // 
             // listReviewToolStripMenuItem
             // 
             listReviewToolStripMenuItem.Name = "listReviewToolStripMenuItem";
-            listReviewToolStripMenuItem.Size = new Size(180, 22);
+            listReviewToolStripMenuItem.Size = new Size(193, 26);
             listReviewToolStripMenuItem.Text = "List review";
+            // 
+            // checkINToolStripMenuItem
+            // 
+            checkINToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { addCheckInToolStripMenuItem, editCheckInToolStripMenuItem, removeCheckInToolStripMenuItem, listCheckInToolStripMenuItem });
+            checkINToolStripMenuItem.Name = "checkINToolStripMenuItem";
+            checkINToolStripMenuItem.Size = new Size(81, 24);
+            checkINToolStripMenuItem.Text = "Check IN";
+            // 
+            // addCheckInToolStripMenuItem
+            // 
+            addCheckInToolStripMenuItem.Name = "addCheckInToolStripMenuItem";
+            addCheckInToolStripMenuItem.Size = new Size(224, 26);
+            addCheckInToolStripMenuItem.Text = "Add Check in";
+            // 
+            // editCheckInToolStripMenuItem
+            // 
+            editCheckInToolStripMenuItem.Name = "editCheckInToolStripMenuItem";
+            editCheckInToolStripMenuItem.Size = new Size(224, 26);
+            editCheckInToolStripMenuItem.Text = "Edit Check in";
+            // 
+            // removeCheckInToolStripMenuItem
+            // 
+            removeCheckInToolStripMenuItem.Name = "removeCheckInToolStripMenuItem";
+            removeCheckInToolStripMenuItem.Size = new Size(224, 26);
+            removeCheckInToolStripMenuItem.Text = "Remove Check in";
+            // 
+            // listCheckInToolStripMenuItem
+            // 
+            listCheckInToolStripMenuItem.Name = "listCheckInToolStripMenuItem";
+            listCheckInToolStripMenuItem.Size = new Size(224, 26);
+            listCheckInToolStripMenuItem.Text = "List Check in";
             // 
             // FormManagementClient
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FormManagementClient";
-            Text = "A";
+            Text = "CLIENT MENU";
             Load += FormManagementClient_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
@@ -225,5 +267,10 @@
         private ToolStripMenuItem removeReviewToolStripMenuItem;
         private ToolStripMenuItem listRToolStripMenuItem;
         private ToolStripMenuItem listReviewToolStripMenuItem;
+        private ToolStripMenuItem checkINToolStripMenuItem;
+        private ToolStripMenuItem addCheckInToolStripMenuItem;
+        private ToolStripMenuItem editCheckInToolStripMenuItem;
+        private ToolStripMenuItem removeCheckInToolStripMenuItem;
+        private ToolStripMenuItem listCheckInToolStripMenuItem;
     }
 }
