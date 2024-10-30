@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danil\\source\\repos\\TP_POO_25257\\Tourist Accommodation System\\Tourist Accommodation System.csproj": {}
+    "C:\\Users\\danil\\source\\repos\\TP_POO_25257\\TP_POO_25257\\Tourist Accommodation System\\Tourist Accommodation System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danil\\source\\repos\\TP_POO_25257\\Tourist Accommodation System\\Tourist Accommodation System.csproj": {
+    "C:\\Users\\danil\\source\\repos\\TP_POO_25257\\TP_POO_25257\\Tourist Accommodation System\\Tourist Accommodation System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danil\\source\\repos\\TP_POO_25257\\Tourist Accommodation System\\Tourist Accommodation System.csproj",
+        "projectUniqueName": "C:\\Users\\danil\\source\\repos\\TP_POO_25257\\TP_POO_25257\\Tourist Accommodation System\\Tourist Accommodation System.csproj",
         "projectName": "Tourist Accommodation System",
-        "projectPath": "C:\\Users\\danil\\source\\repos\\TP_POO_25257\\Tourist Accommodation System\\Tourist Accommodation System.csproj",
+        "projectPath": "C:\\Users\\danil\\source\\repos\\TP_POO_25257\\TP_POO_25257\\Tourist Accommodation System\\Tourist Accommodation System.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danil\\source\\repos\\TP_POO_25257\\Tourist Accommodation System\\obj\\",
+        "outputPath": "C:\\Users\\danil\\source\\repos\\TP_POO_25257\\TP_POO_25257\\Tourist Accommodation System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",

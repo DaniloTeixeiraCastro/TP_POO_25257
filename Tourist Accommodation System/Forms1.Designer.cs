@@ -32,12 +32,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Forms1));
             label1 = new Label();
-            lblAccommodation = new Label();
-            lblReservation = new Label();
-            lblReviews = new Label();
             panel1 = new Panel();
             pictureBox1 = new PictureBox();
-            lblChekcin = new Label();
             button_CLIENT = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -52,39 +48,6 @@
             label1.Size = new Size(370, 31);
             label1.TabIndex = 0;
             label1.Text = "ACCOMODATION MANAGEMENT";
-            // 
-            // lblAccommodation
-            // 
-            lblAccommodation.AutoSize = true;
-            lblAccommodation.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblAccommodation.Location = new Point(365, 203);
-            lblAccommodation.Name = "lblAccommodation";
-            lblAccommodation.Size = new Size(184, 28);
-            lblAccommodation.TabIndex = 2;
-            lblAccommodation.Text = "ACCOMMODATION";
-            lblAccommodation.Click += lblAccommodation_Click;
-            // 
-            // lblReservation
-            // 
-            lblReservation.AutoSize = true;
-            lblReservation.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblReservation.Location = new Point(365, 261);
-            lblReservation.Name = "lblReservation";
-            lblReservation.Size = new Size(135, 28);
-            lblReservation.TabIndex = 3;
-            lblReservation.Text = "RESERVATION";
-            lblReservation.Click += lblReservation_Click;
-            // 
-            // lblReviews
-            // 
-            lblReviews.AutoSize = true;
-            lblReviews.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblReviews.Location = new Point(370, 320);
-            lblReviews.Name = "lblReviews";
-            lblReviews.Size = new Size(91, 28);
-            lblReviews.TabIndex = 4;
-            lblReviews.Text = "REVIEWS";
-            lblReviews.Click += lblReviews_Click;
             // 
             // panel1
             // 
@@ -105,17 +68,6 @@
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
-            // lblChekcin
-            // 
-            lblChekcin.AutoSize = true;
-            lblChekcin.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblChekcin.Location = new Point(370, 383);
-            lblChekcin.Name = "lblChekcin";
-            lblChekcin.Size = new Size(100, 28);
-            lblChekcin.TabIndex = 6;
-            lblChekcin.Text = "CHECK-IN";
-            lblChekcin.Click += lblChekcin_Click;
-            // 
             // button_CLIENT
             // 
             button_CLIENT.Location = new Point(370, 148);
@@ -125,18 +77,14 @@
             button_CLIENT.TabIndex = 7;
             button_CLIENT.Text = "CLIENT";
             button_CLIENT.UseVisualStyleBackColor = true;
-            button_CLIENT.Click += button1_Click;
+            button_CLIENT.Click += button_client_Click;
             // 
             // Forms1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(778, 547);
-            Controls.Add(lblChekcin);
             Controls.Add(panel1);
-            Controls.Add(lblReviews);
-            Controls.Add(lblReservation);
-            Controls.Add(lblAccommodation);
             Controls.Add(label1);
             Controls.Add(button_CLIENT);
             Name = "Forms1";
@@ -151,11 +99,7 @@
         #endregion
 
         private Label label1;
-        private Label lblAccommodation;
-        private Label lblReservation;
-        private Label lblReviews;
         private Panel panel1;
-        private Label lblChekcin;
         private PictureBox pictureBox1;
         private Button button_CLIENT;
     }

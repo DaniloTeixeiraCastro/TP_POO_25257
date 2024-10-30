@@ -13,32 +13,12 @@ namespace Tourist_Accommodation_System
 
         }
 
-        private void lblReviews_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblAccommodation_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblReservation_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblChekcin_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Forms1_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button_client_Click(object sender, EventArgs e)
         {
           // Cria uma nova instância do formulário ClientManagementForm
           FormManagementClient clientForm = new FormManagementClient();
