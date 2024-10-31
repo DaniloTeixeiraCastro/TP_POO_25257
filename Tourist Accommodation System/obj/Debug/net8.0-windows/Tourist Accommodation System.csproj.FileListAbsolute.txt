@@ -52,3 +52,26 @@ C:\Users\danil\Source\Repos\TP_POO_24257\Tourist Accommodation System\obj\Debug\
 C:\Users\danil\Source\Repos\TP_POO_24257\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.pdb
 C:\Users\danil\Source\Repos\TP_POO_24257\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.genruntimeconfig.cache
 C:\Users\danil\Source\Repos\TP_POO_24257\Tourist Accommodation System\obj\Debug\net8.0-windows\ref\Tourist Accommodation System.dll
+C:\TP_POO_25257\Tourist Accommodation System\bin\Debug\net8.0-windows\Tourist Accommodation System.exe
+C:\TP_POO_25257\Tourist Accommodation System\bin\Debug\net8.0-windows\Tourist Accommodation System.deps.json
+C:\TP_POO_25257\Tourist Accommodation System\bin\Debug\net8.0-windows\Tourist Accommodation System.runtimeconfig.json
+C:\TP_POO_25257\Tourist Accommodation System\bin\Debug\net8.0-windows\Tourist Accommodation System.dll
+C:\TP_POO_25257\Tourist Accommodation System\bin\Debug\net8.0-windows\Tourist Accommodation System.pdb
+C:\TP_POO_25257\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist_Accommodation_System.FormManagementAccommodation.resources
+C:\TP_POO_25257\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist_Accommodation_System.FormManagementClient.resources
+C:\TP_POO_25257\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist_Accommodation_System.Forms1.resources
+C:\TP_POO_25257\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist_Accommodation_System.Properties.Resources.resources
+C:\TP_POO_25257\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.csproj.GenerateResource.cache
+C:\TP_POO_25257\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.GeneratedMSBuildEditorConfig.editorconfig
+C:\TP_POO_25257\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.AssemblyInfoInputs.cache
+C:\TP_POO_25257\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.AssemblyInfo.cs
+C:\TP_POO_25257\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.csproj.CoreCompileInputs.cache
+C:\TP_POO_25257\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.sourcelink.json
+C:\TP_POO_25257\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.dll
+C:\TP_POO_25257\Tourist Accommodation System\obj\Debug\net8.0-windows\refint\Tourist Accommodation System.dll
+C:\TP_POO_25257\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.pdb
+C:\TP_POO_25257\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist Accommodation System.genruntimeconfig.cache
+C:\TP_POO_25257\Tourist Accommodation System\obj\Debug\net8.0-windows\ref\Tourist Accommodation System.dll
+C:\TP_POO_25257\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist_Accommodation_System.Forms.FormManagementReservation.resources
+C:\TP_POO_25257\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist_Accommodation_System.Forms.FormManagementReviews.resources
+C:\TP_POO_25257\Tourist Accommodation System\obj\Debug\net8.0-windows\Tourist_Accommodation_System.Forms.FormManagementCheckin.resources

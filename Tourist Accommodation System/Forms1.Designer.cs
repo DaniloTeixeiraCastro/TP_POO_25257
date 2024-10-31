@@ -39,6 +39,7 @@
             button_reservation = new Button();
             button_reviews = new Button();
             button_checkin = new Button();
+            MainPanel = new Panel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -74,7 +75,7 @@
             // 
             // button_CLIENT
             // 
-            button_CLIENT.Location = new Point(470, 148);
+            button_CLIENT.Location = new Point(468, 131);
             button_CLIENT.Margin = new Padding(3, 4, 3, 4);
             button_CLIENT.Name = "button_CLIENT";
             button_CLIENT.Size = new Size(169, 40);
@@ -85,7 +86,7 @@
             // 
             // button_accommodation
             // 
-            button_accommodation.Location = new Point(470, 207);
+            button_accommodation.Location = new Point(468, 190);
             button_accommodation.Name = "button_accommodation";
             button_accommodation.Size = new Size(169, 40);
             button_accommodation.TabIndex = 8;
@@ -95,7 +96,7 @@
             // 
             // button_reservation
             // 
-            button_reservation.Location = new Point(470, 270);
+            button_reservation.Location = new Point(468, 253);
             button_reservation.Name = "button_reservation";
             button_reservation.Size = new Size(169, 40);
             button_reservation.TabIndex = 9;
@@ -105,7 +106,7 @@
             // 
             // button_reviews
             // 
-            button_reviews.Location = new Point(470, 335);
+            button_reviews.Location = new Point(468, 318);
             button_reviews.Name = "button_reviews";
             button_reviews.Size = new Size(169, 40);
             button_reviews.TabIndex = 10;
@@ -115,7 +116,7 @@
             // 
             // button_checkin
             // 
-            button_checkin.Location = new Point(470, 402);
+            button_checkin.Location = new Point(468, 385);
             button_checkin.Name = "button_checkin";
             button_checkin.Size = new Size(169, 40);
             button_checkin.TabIndex = 11;
@@ -135,6 +136,7 @@
             Controls.Add(panel1);
             Controls.Add(label1);
             Controls.Add(button_CLIENT);
+            Controls.Add(MainPanel);
             Name = "Forms1";
             Text = "Form1";
             Load += Forms1_Load;
@@ -154,5 +156,6 @@
         private Button button_reservation;
         private Button button_reviews;
         private Button button_checkin;
+        private Panel MainPanel;
     }
 }
