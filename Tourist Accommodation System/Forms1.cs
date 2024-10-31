@@ -20,12 +20,32 @@ namespace Tourist_Accommodation_System
 
         private void button_client_Click(object sender, EventArgs e)
         {
-          // Cria uma nova instância do formulário ClientManagementForm
-          FormManagementClient clientForm = new FormManagementClient();
+            // Cria uma nova instância do formulário ClientManagementForm
+            FormManagementClient clientForm = new FormManagementClient();
 
-          // Exibe o formulário
-          clientForm.Show();
-        
+            // Exibe o formulário
+            clientForm.Show();
+
+        }
+
+        private void button_accommodation_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_reservation_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_reviews_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_checkin_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

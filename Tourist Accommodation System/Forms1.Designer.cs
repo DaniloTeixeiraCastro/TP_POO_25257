@@ -35,6 +35,10 @@
             panel1 = new Panel();
             pictureBox1 = new PictureBox();
             button_CLIENT = new Button();
+            button_accommodation = new Button();
+            button_reservation = new Button();
+            button_reviews = new Button();
+            button_checkin = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -45,9 +49,9 @@
             label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(365, 27);
             label1.Name = "label1";
-            label1.Size = new Size(370, 31);
+            label1.Size = new Size(372, 31);
             label1.TabIndex = 0;
-            label1.Text = "ACCOMODATION MANAGEMENT";
+            label1.Text = "TOURIST MANAGEMENT SYSTEM";
             // 
             // panel1
             // 
@@ -55,7 +59,7 @@
             panel1.Controls.Add(pictureBox1);
             panel1.Location = new Point(1, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(329, 539);
+            panel1.Size = new Size(329, 548);
             panel1.TabIndex = 5;
             // 
             // pictureBox1
@@ -70,20 +74,64 @@
             // 
             // button_CLIENT
             // 
-            button_CLIENT.Location = new Point(370, 148);
+            button_CLIENT.Location = new Point(470, 148);
             button_CLIENT.Margin = new Padding(3, 4, 3, 4);
             button_CLIENT.Name = "button_CLIENT";
-            button_CLIENT.Size = new Size(86, 31);
+            button_CLIENT.Size = new Size(169, 40);
             button_CLIENT.TabIndex = 7;
             button_CLIENT.Text = "CLIENT";
             button_CLIENT.UseVisualStyleBackColor = true;
             button_CLIENT.Click += button_client_Click;
+            // 
+            // button_accommodation
+            // 
+            button_accommodation.Location = new Point(470, 207);
+            button_accommodation.Name = "button_accommodation";
+            button_accommodation.Size = new Size(169, 40);
+            button_accommodation.TabIndex = 8;
+            button_accommodation.Text = "ACCOMMODATION";
+            button_accommodation.UseVisualStyleBackColor = true;
+            button_accommodation.Click += button_accommodation_Click;
+            // 
+            // button_reservation
+            // 
+            button_reservation.Location = new Point(470, 270);
+            button_reservation.Name = "button_reservation";
+            button_reservation.Size = new Size(169, 40);
+            button_reservation.TabIndex = 9;
+            button_reservation.Text = "RESERVATION";
+            button_reservation.UseVisualStyleBackColor = true;
+            button_reservation.Click += button_reservation_Click;
+            // 
+            // button_reviews
+            // 
+            button_reviews.Location = new Point(470, 335);
+            button_reviews.Name = "button_reviews";
+            button_reviews.Size = new Size(169, 40);
+            button_reviews.TabIndex = 10;
+            button_reviews.Text = "REVIEWS";
+            button_reviews.UseVisualStyleBackColor = true;
+            button_reviews.Click += button_reviews_Click;
+            // 
+            // button_checkin
+            // 
+            button_checkin.Location = new Point(470, 402);
+            button_checkin.Name = "button_checkin";
+            button_checkin.Size = new Size(169, 40);
+            button_checkin.TabIndex = 11;
+            button_checkin.Text = "CHECK-IN";
+            button_checkin.UseVisualStyleBackColor = true;
+            button_checkin.Click += button_checkin_Click;
             // 
             // Forms1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(778, 547);
+            Controls.Add(button_checkin);
+            Controls.Add(button_reviews);
+            Controls.Add(button_reservation);
+            Controls.Add(button_accommodation);
             Controls.Add(panel1);
             Controls.Add(label1);
             Controls.Add(button_CLIENT);
@@ -102,5 +150,9 @@
         private Panel panel1;
         private PictureBox pictureBox1;
         private Button button_CLIENT;
+        private Button button_accommodation;
+        private Button button_reservation;
+        private Button button_reviews;
+        private Button button_checkin;
     }
 }
