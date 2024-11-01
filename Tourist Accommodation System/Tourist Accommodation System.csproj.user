@@ -1,23 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Forms\FormManagementAccommodation.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\FormManagementCheckin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\FormManagementClient.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Forms1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\FormManagementReservation.cs">
+    <Compile Update="Forms\FormAddEditClient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\FormManagementReviews.cs">
-      <SubType>Form</SubType>
+    <Compile Update="UserControls\UserControlCheckin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\UserControlReview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\UserControlReservation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\UserControlAccommodation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\UserControlClient.cs">
+      <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
 </Project>

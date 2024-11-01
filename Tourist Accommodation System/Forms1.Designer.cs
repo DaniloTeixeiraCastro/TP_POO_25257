@@ -42,6 +42,7 @@
             MainPanel = new Panel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            MainPanel.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -75,10 +76,10 @@
             // 
             // button_CLIENT
             // 
-            button_CLIENT.Location = new Point(468, 131);
+            button_CLIENT.Location = new Point(188, 87);
             button_CLIENT.Margin = new Padding(3, 4, 3, 4);
             button_CLIENT.Name = "button_CLIENT";
-            button_CLIENT.Size = new Size(169, 40);
+            button_CLIENT.Size = new Size(240, 77);
             button_CLIENT.TabIndex = 7;
             button_CLIENT.Text = "CLIENT";
             button_CLIENT.UseVisualStyleBackColor = true;
@@ -86,9 +87,9 @@
             // 
             // button_accommodation
             // 
-            button_accommodation.Location = new Point(468, 190);
+            button_accommodation.Location = new Point(188, 159);
             button_accommodation.Name = "button_accommodation";
-            button_accommodation.Size = new Size(169, 40);
+            button_accommodation.Size = new Size(240, 83);
             button_accommodation.TabIndex = 8;
             button_accommodation.Text = "ACCOMMODATION";
             button_accommodation.UseVisualStyleBackColor = true;
@@ -96,9 +97,9 @@
             // 
             // button_reservation
             // 
-            button_reservation.Location = new Point(468, 253);
+            button_reservation.Location = new Point(188, 228);
             button_reservation.Name = "button_reservation";
-            button_reservation.Size = new Size(169, 40);
+            button_reservation.Size = new Size(240, 77);
             button_reservation.TabIndex = 9;
             button_reservation.Text = "RESERVATION";
             button_reservation.UseVisualStyleBackColor = true;
@@ -106,9 +107,9 @@
             // 
             // button_reviews
             // 
-            button_reviews.Location = new Point(468, 318);
+            button_reviews.Location = new Point(188, 302);
             button_reviews.Name = "button_reviews";
-            button_reviews.Size = new Size(169, 40);
+            button_reviews.Size = new Size(240, 77);
             button_reviews.TabIndex = 10;
             button_reviews.Text = "REVIEWS";
             button_reviews.UseVisualStyleBackColor = true;
@@ -116,32 +117,42 @@
             // 
             // button_checkin
             // 
-            button_checkin.Location = new Point(468, 385);
+            button_checkin.Location = new Point(188, 376);
             button_checkin.Name = "button_checkin";
-            button_checkin.Size = new Size(169, 40);
+            button_checkin.Size = new Size(240, 77);
             button_checkin.TabIndex = 11;
             button_checkin.Text = "CHECK-IN";
             button_checkin.UseVisualStyleBackColor = true;
             button_checkin.Click += button_checkin_Click;
             // 
+            // MainPanel
+            // 
+            MainPanel.BackColor = Color.Transparent;
+            MainPanel.Controls.Add(button_checkin);
+            MainPanel.Controls.Add(button_reservation);
+            MainPanel.Controls.Add(button_reviews);
+            MainPanel.Controls.Add(button_CLIENT);
+            MainPanel.Controls.Add(button_accommodation);
+            MainPanel.Location = new Point(336, 12);
+            MainPanel.Name = "MainPanel";
+            MainPanel.Size = new Size(660, 536);
+            MainPanel.TabIndex = 12;
+            MainPanel.Paint += MainPanel_Paint;
+            // 
             // Forms1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(778, 547);
-            Controls.Add(button_checkin);
-            Controls.Add(button_reviews);
-            Controls.Add(button_reservation);
-            Controls.Add(button_accommodation);
+            ClientSize = new Size(1003, 547);
             Controls.Add(panel1);
             Controls.Add(label1);
-            Controls.Add(button_CLIENT);
             Controls.Add(MainPanel);
             Name = "Forms1";
-            Text = "Form1";
-            Load += Forms1_Load;
+            Text = "HOME";
+            Load += HOME_Load;
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            MainPanel.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }

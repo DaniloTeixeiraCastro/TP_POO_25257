@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Tourist_Accommodation_System.Forms
+namespace Tourist_Accommodation_System
 {
-    public partial class FormManagementReservation : Form
+    public partial class UserControlReservation : UserControl
     {
-        public FormManagementReservation()
+        public UserControlReservation()
         {
             InitializeComponent();
         }

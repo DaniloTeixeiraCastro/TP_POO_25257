@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Tourist_Accommodation_System.Forms
+namespace Tourist_Accommodation_System
 {
-    public partial class FormManagementCheckin : Form
+    public partial class UserControlCheckin : UserControl
     {
-        public FormManagementCheckin()
+        public UserControlCheckin()
         {
             InitializeComponent();
         }
@@ -23,6 +23,11 @@ namespace Tourist_Accommodation_System.Forms
         }
 
         private void button_editcheckin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_removecheckin_Click(object sender, EventArgs e)
         {
 
         }
