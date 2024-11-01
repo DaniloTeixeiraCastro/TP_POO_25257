@@ -49,7 +49,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(365, 27);
+            label1.Location = new Point(123, 13);
             label1.Name = "label1";
             label1.Size = new Size(372, 31);
             label1.TabIndex = 0;
@@ -129,6 +129,7 @@
             // 
             MainPanel.BackColor = Color.Transparent;
             MainPanel.Controls.Add(button_checkin);
+            MainPanel.Controls.Add(label1);
             MainPanel.Controls.Add(button_reservation);
             MainPanel.Controls.Add(button_reviews);
             MainPanel.Controls.Add(button_CLIENT);
@@ -145,7 +146,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1003, 547);
             Controls.Add(panel1);
-            Controls.Add(label1);
             Controls.Add(MainPanel);
             Name = "Forms1";
             Text = "HOME";
@@ -153,8 +153,8 @@
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             MainPanel.ResumeLayout(false);
+            MainPanel.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion

@@ -101,10 +101,11 @@
             // dateTimePicker
             // 
             dateTimePicker.Location = new Point(351, 276);
+            dateTimePicker.MinDate = new DateTime(1924, 1, 1, 0, 0, 0, 0);
             dateTimePicker.Name = "dateTimePicker";
             dateTimePicker.Size = new Size(275, 27);
             dateTimePicker.TabIndex = 6;
-            dateTimePicker.ValueChanged += dateTimePicker1_ValueChanged;
+            dateTimePicker.ValueChanged += dateTimePicker_ValueChanged;
             // 
             // label_BirthDate
             // 

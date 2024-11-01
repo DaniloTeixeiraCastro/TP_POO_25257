@@ -17,12 +17,24 @@ namespace Tourist_Accommodation_System.Forms
             InitializeComponent();
         }
 
-        private void textBox_name_TextChanged(object sender, EventArgs e)
+        private void label_email_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void label_BirthDate_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label_email_Click(object sender, EventArgs e)
+        private void label_tin_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void label_number_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void textBox_name_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -37,25 +49,11 @@ namespace Tourist_Accommodation_System.Forms
 
         }
 
-        private void label_number_Click(object sender, EventArgs e)
+        private void dateTimePicker_ValueChanged(object sender, EventArgs e)
         {
-
+            dateTimePicker.MaxDate = DateTime.Today.AddYears(-18);
         }
 
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label_BirthDate_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label_tin_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void button_save_Click(object sender, EventArgs e)
         {
